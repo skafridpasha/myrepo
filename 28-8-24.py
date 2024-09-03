@@ -203,7 +203,7 @@ print(num1)
 #21)Python program to separate characters in a given string.
 
 
-word="i like python program"
+word=input("enter a string:")
 s=word.split()
 print(s)
 
