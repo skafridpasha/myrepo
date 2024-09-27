@@ -1,3 +1,4 @@
+
 #factorial
 
 '''s=5*4*3*2
@@ -38,15 +39,39 @@ for i in s:
 s="aaaaabbbbbccccccc"
 print(dup(s))'''
 
-#even nmbs
+"""#even nmbs
 num=int(input("enter a value:"))
 #while num>0:
 if num>0 and num%2==0:
-   print("even")
-  
+   print("even")  
 else:
-    print("not")
-     
+    print("not")"""
 
 
+ #remove dup value
+
+'''def dub(s):
+  l=[]
+  for char in s:
+    if char not in l:
+      l.append(char)
+  print(l)
+
+  st=" ,".join(l)
+  return st
+s="aaaaabbbbcccc"  
+print(dub(s)) '''
+
+from task6 import products     
+#products =("tv","phn","tv")
+l=[]
+def  dub(products):
+   for i in products:
+     if i =="phn":
+        l.append(i)   
+   print(l)
+   st=",".join(l)
+   return st
+#products =("tv","phn","tv")
+print(dub(products))
 

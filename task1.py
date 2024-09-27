@@ -4,3 +4,5 @@ print(type(name))
 num=int(input("enter ur age:"))
 print(num)
 print(type(num))
+
+
